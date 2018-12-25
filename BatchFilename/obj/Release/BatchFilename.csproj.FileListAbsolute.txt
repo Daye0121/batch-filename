@@ -1,0 +1,10 @@
+D:\Codes\BatchFilename\BatchFilename\bin\Release\BatchFilename.exe.config
+D:\Codes\BatchFilename\BatchFilename\bin\Release\BatchFilename.exe
+D:\Codes\BatchFilename\BatchFilename\bin\Release\BatchFilename.pdb
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csprojAssemblyReference.cache
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.Form1.resources
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.Properties.Resources.resources
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csproj.GenerateResource.cache
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csproj.CoreCompileInputs.cache
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.exe
+D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.pdb
