@@ -38,7 +38,7 @@ namespace BatchFilename
             var files = Directory.GetFiles(txt_SelectPath.Text);
             if (files.Count() == 0)
             {
-                MessageBox.Show("資料夾內沒有檔案!");
+                MessageBox.Show("資料夾內沒有檔案!","錯誤");
                 return;
             }
 
@@ -60,7 +60,7 @@ namespace BatchFilename
                 File.Move(file, newFilename);
                 seq = seq + 1;
             }
-            MessageBox.Show("完成!");
+            MessageBox.Show("重新命名完成!","成功");
         }
 
         /// <summary>
@@ -71,7 +71,7 @@ namespace BatchFilename
         {
             if (txt_SelectPath.Text == "" || txt_SelectPath.Text == null)
             {
-                MessageBox.Show("路徑不得為空!");
+                MessageBox.Show("路徑不得為空!","錯誤");
                 return false;
             }
             else
