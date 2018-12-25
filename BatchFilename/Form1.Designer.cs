@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txt_SelectPath = new System.Windows.Forms.TextBox();
             this.btn_SelectPath = new System.Windows.Forms.Button();
             this.lbl_Format = new System.Windows.Forms.Label();
@@ -144,6 +145,7 @@
             this.Controls.Add(this.lbl_Format);
             this.Controls.Add(this.btn_SelectPath);
             this.Controls.Add(this.txt_SelectPath);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
