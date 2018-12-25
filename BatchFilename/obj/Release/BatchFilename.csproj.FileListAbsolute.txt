@@ -7,4 +7,3 @@ D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csproj.GenerateRe
 D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csproj.CoreCompileInputs.cache
 D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.exe
 D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.pdb
-D:\Codes\BatchFilename\BatchFilename\obj\Release\BatchFilename.csprojAssemblyReference.cache

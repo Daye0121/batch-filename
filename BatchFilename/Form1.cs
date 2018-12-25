@@ -55,7 +55,7 @@ namespace BatchFilename
                 if (txt_Format.Text.IndexOf("*") >= 0)
                     newFilename = Path.Combine(txt_SelectPath.Text, $"{txt_Format.Text.Replace("*", serialNum)}{ext}");
                 else
-                    newFilename = Path.Combine(txt_SelectPath.Text, $"{txt_Format.Text}{seq}{ext}");
+                    newFilename = Path.Combine(txt_SelectPath.Text, $"{txt_Format.Text}{serialNum}{ext}");
 
                 File.Move(file, newFilename);
                 seq = seq + 1;
