@@ -108,7 +108,7 @@
             this.lbl_Total.AutoSize = true;
             this.lbl_Total.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lbl_Total.ForeColor = System.Drawing.Color.Brown;
-            this.lbl_Total.Location = new System.Drawing.Point(395, 373);
+            this.lbl_Total.Location = new System.Drawing.Point(15, 417);
             this.lbl_Total.Name = "lbl_Total";
             this.lbl_Total.Size = new System.Drawing.Size(112, 16);
             this.lbl_Total.TabIndex = 7;

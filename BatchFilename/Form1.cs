@@ -20,11 +20,15 @@ namespace BatchFilename
         private void btn_SelectPath_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog path = new FolderBrowserDialog();
-            path.ShowDialog();
-            this.txt_SelectPath.Text = path.SelectedPath;
+            if (txt_SelectPath.Text != "" && txt_SelectPath.Text != null)
+                path.SelectedPath = txt_SelectPath.Text;
 
-            if (!CheckPathAndShow()) return;
-            FinalFormat();
+            if (path.ShowDialog() == DialogResult.OK)
+            {
+                txt_SelectPath.Text = path.SelectedPath;
+                if (!CheckPathAndShow()) return;
+                FinalFormat();
+            }
         }
 
         /// <summary>
@@ -71,7 +75,7 @@ namespace BatchFilename
                     File.Move(file, Path.Combine(txt_SelectPath.Text, newFilename));
                     seq = seq + 1;
                 }
-                MessageBox.Show("重新命名完成!", "成功");
+                this.lbl_Total.Text = $"總共有{files.Count()}個檔案，完成!";
             }
         }
 
@@ -134,9 +138,7 @@ namespace BatchFilename
                     lbl_FormatView_Final.Text += $"{txt_Format.Text}*";
             }
             else
-            {
                 lbl_FormatView_Final.Text += "*";
-            }
 
             lbl_FormatView_Final.Text += "\n若有*則是用流水號取代";
         }
