@@ -12,6 +12,7 @@ namespace BatchFilename
             InitializeComponent();
         }
 
+		
         /// <summary>
         /// 選擇資料夾路徑
         /// </summary>
